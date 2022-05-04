@@ -10,6 +10,6 @@
       msg: "Hello 1.FC!" 
     
 
-  - name: Hello Variable_a
+  - name: Hello Variable_a und _b
     debug:
-      msg: "{{variable_a}} und {{variable_b}}" 
+      msg: "addition{{variable_a + variable_b}}" 
