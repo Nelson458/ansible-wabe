@@ -9,11 +9,7 @@
     debug:
       msg: "Hello 1.FC!" 
     
-  - name: Das ist mein erstes YML
-    file:
-      path: /tmp/erstesYML.yml
-      state: touch
-  - name: Das ist mein erster Ordner
-    file:
-      path: /tmp/erster Ordner
-      state: directory
+
+  - name: Hello Variable_a
+    debug:
+      msg: "{{variable_a}} und {{Variable_B}}" 
