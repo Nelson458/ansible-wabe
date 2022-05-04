@@ -1,5 +1,9 @@
 ---
 - name: Setup Docker-Server
+  file:
+    path: fc.yml
+    owner: hv3788
+    state: link
   hosts: localhost
   remote_user: root
 
