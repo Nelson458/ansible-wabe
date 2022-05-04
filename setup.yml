@@ -8,4 +8,10 @@
   - name: Hello Server
     debug:
       msg: "Hello 1.FC!" 
+    
+  - name: HDas ist mein erstes YML
+    
+    file:
+    path: /tmp/erstesYML.yml
+    state: touch
       
