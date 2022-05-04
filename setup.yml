@@ -6,10 +6,10 @@
   tasks:
 
   - name: Hello Server
-    debug:
-      msg: "Hello 1.FC!" 
-    
-
-  - name: Hello Variable_a und _b
-    debug:
-      msg: "a+b = {{variable_a + variable_b}}" 
+      user: name="{{ Namen }}" state = present groups = wheel
+      loop:
+        -FC
+        -BMG
+        -LEV
+     # msg: "Hello 1.FC!" 
+   
