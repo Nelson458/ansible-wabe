@@ -6,10 +6,10 @@
   tasks:
 
   - name: Hello Server
-      user: name="{{ Namen }}" state = present groups = wheel
-      loop:
+    debug: name="{{ Namen }}" state = present groups = wheel
+    loop:
         -FC
         -BMG
         -LEV
-     # msg: "Hello 1.FC!" 
+      msg: "Hello {{Namen}}" 
    
