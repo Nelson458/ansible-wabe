@@ -15,5 +15,5 @@
       state: touch
   - name: Das ist mein erster Ordner
     file:
-      path: /tmp/erstesYML.yml
-      state: touch
+      path: /tmp/erster Ordner
+      state: directory
