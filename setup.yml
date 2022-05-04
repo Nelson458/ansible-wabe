@@ -8,10 +8,9 @@
   - name: Hello Server
     debug:
         msg: "Hello {{item}}" 
-
     loop:
-        -FC
-        -BMG
-        -LEV
+        - FC
+        - BMG
+        - LEV
 
    
